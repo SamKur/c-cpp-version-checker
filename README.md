@@ -18,6 +18,12 @@ git clone https://github.com/SamKur/c-cpp-version-checker.git
 
 * **Linux/Mac:** Use your package manager (e.g., `apt`, `brew`) to install GCC and G++.
 * **Windows:** Consider using MinGW or install compilers like GCC and G++ through MSYS2 or similar tools.
+    * MinGW Website - https://www.mingw-w64.org/
+    * Which to choose? - I'll recommend this - [Click to check github releases](https://github.com/niXman/mingw-builds-binaries/releases) 
+    * I'm using [this as of now](https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-rev0/x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0.7z)
+    * Make sure it's added to path
+    * For  other c/c++ compiler like clang, msvc etc - do your homework :P
+    * This repo will work for all major names.
 
 ### 3. Open Terminal/Command Prompt
 
