@@ -77,7 +77,7 @@ g++ -std=c++14 cpp_checker.cpp -o cpp_checker
 g++ cpp_checker.cpp -o cpp_checker
 ```
 
-### Run the Compiled File
+### 6. Run the Compiled File
 
 **Execute the generated file based on your operating system:**
 
@@ -98,20 +98,6 @@ cpp_checker.exe
 The output will display the compiler versions and supported C/C++ standards on your machine.
 
 
-## Key Benefits of These Checkers
-
-* **Cross-platform:** Works on Linux, Mac, and Windows (Command Prompt/MinGW).
-* **No Dependency on Clang/MSVC:** The checks will run even if these compilers aren't installed.
-* **Graceful Handling of Missing Compilers:** If a compiler is missing, the program will gracefully adjust.
-* **Detects Available Standards:** Automatically detects which standards are supported, even if older versions.
-* **Automatic OS Handling:** The system commands adjust based on the operating system (Windows/Linux/Mac).
-* **Preprocessor Macros:** All feature checks are done through preprocessor macros, ensuring compatibility everywhere.
-
-## Tips for Checking
-
-* **Windows Users:** You can directly run the `.exe` file shared by me, but it's recommended to compile from source on your local machine for maximum flexibility.
-* **All Users:** Use the source code and compile it locally on your machine. Run the generated file(`c_checker` or `c_checker.exe` AND `cpp_checker` or `cpp_checker.exe`).
-
 ## Output
 
 The output will help you to:
@@ -120,6 +106,15 @@ The output will help you to:
 * Verify C/C++ standard support.
 * Check for specific feature availability.
 * Identify potential compatibility issues.
+
+## Key Benefits of These Checkers
+
+* **Cross-platform:** Works on Linux, Mac, and Windows (Command Prompt/MinGW).
+* **No Dependency on Clang/MSVC:** The checks will run even if these compilers aren't installed.
+* **Graceful Handling of Missing Compilers:** If a compiler is missing, the program will gracefully adjust.
+* **Detects Available Standards:** Automatically detects which standards are supported, even if older versions.
+* **Automatic OS Handling:** The system commands adjust based on the operating system (Windows/Linux/Mac).
+* **Preprocessor Macros:** All feature checks are done through preprocessor macros, ensuring compatibility everywhere.
 
 ## Contributing
 
