@@ -60,7 +60,7 @@ g++ cpp_checker.cpp -o cpp_checker
 
 ---
 
-## Tips for Deployment
+## Tips for Checking
 
 - **Windows Users**: You can directly run the `.exe` file shared by me, but it's recommended to compile from source on your local machine for maximum flexibility.
 - **Other Users**: Please use the source code and compile it locally on your machine.
