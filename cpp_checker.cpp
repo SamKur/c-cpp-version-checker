@@ -45,8 +45,10 @@ void check_cpp_standards() {
     #ifdef __cplusplus
         printf("- __cplusplus: %ldL\n", __cplusplus);
         
-        if (__cplusplus > 202302L)
-            printf("- C++23 or newer is supported\n");
+        if (__cplusplus >= 202402L)
+            printf("- C++24 or newer is supported\n");
+        else if (__cplusplus >= 202302L)
+            printf("- C++23 is supported\n");
         else if (__cplusplus >= 202002L)
             printf("- C++20 is supported\n");
         else if (__cplusplus >= 201703L)

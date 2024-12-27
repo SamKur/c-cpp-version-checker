@@ -48,7 +48,9 @@ void check_c_standards() {
         #ifdef __STDC_VERSION__
             printf("- __STDC_VERSION__: %ldL\n", __STDC_VERSION__);
             
-            if (__STDC_VERSION__ >= 202311L)
+            if (__STDC_VERSION__ >= 202411L)
+                printf("- C24 or newer is supported!\n");
+            else if (__STDC_VERSION__ >= 202311L)
                 printf("- C23 is supported!\n");
             else if (__STDC_VERSION__ >= 201710L)
                 printf("- C17/C18 is supported\n");
